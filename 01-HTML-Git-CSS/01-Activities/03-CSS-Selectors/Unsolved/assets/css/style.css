@@ -1,13 +1,18 @@
 /* TODO: Label selector type */
+
+/*Modifyies the font the the entire page*/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+
+/*Applies to the entire body of the page*/
 body {
   background-color: lemonchiffon;
 }
 
+/*Applies to the header and footer sections of the page*/
 header,
 footer {
   width: 100%;
@@ -17,17 +22,22 @@ footer {
   background-color: #191970;
 }
 
+/*Applies to all "Figure" elements on the page*/
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
 /* TODO: Label selector type */
+
+/*Applies to the elements and their descendants of the designated class*/
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+
+/*Applies to the element with the designated ID*/
 #contact-section {
   background-color: #f0ead6;
 }

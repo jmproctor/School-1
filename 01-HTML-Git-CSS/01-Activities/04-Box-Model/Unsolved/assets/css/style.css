@@ -3,6 +3,9 @@ section {
   height: 600px;
   text-align: center;
   border: 15px solid black;
+  background-color: yellow;
+  /* Float moves the element and its Descendants around on the page*/
+  float:inline-start;
 }
 
 img {
@@ -10,6 +13,9 @@ img {
   height: 200px;
   background-color: lightblue;
   /* TODO: Add a margin property */
+  margin:20px;
   /* TODO: Add a padding property */
+  padding:20px;
   /* TODO: Add a border property */
+  border: 5px dashed rgb(95, 6, 6);
 }
